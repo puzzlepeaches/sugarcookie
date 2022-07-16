@@ -1,0 +1,9 @@
+---
+- hosts: default
+  become: true
+  include_vars:
+    dir: "vars"
+    extensions: ["yml"]
+  gather_facts: yes
+  roles:
+    - { role: default, tags: [default] }
