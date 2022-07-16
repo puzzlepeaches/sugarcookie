@@ -1,4 +1,4 @@
-# PythonCookie
+# Sugarcookie
 
 This is my Ansible [Cookiecutter](https://github.com/cookiecutter/cookiecutter) project template.
 
